@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^(.*)$ public/index.php [NC,L]
+
+<IfModule dir_module>
+    DirectoryIndex index.php
+</IfModule>
+
